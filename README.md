@@ -1,6 +1,9 @@
 # NETIZENIT_DEMO_TEST
 
+Simple app, the student will fill up the admission form and Admin show the all student admission form after login.
 
+Admin Login Screen
+------------------
 ![4](https://user-images.githubusercontent.com/8472582/53866366-a3540d00-401b-11e9-9e6c-e499521bfef8.png)
 
 ![4](https://user-images.githubusercontent.com/8472582/53867387-ef07b600-401d-11e9-9f9e-39e54682f4e0.png)
