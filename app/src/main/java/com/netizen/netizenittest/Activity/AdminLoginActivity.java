@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.app.AppCompatDelegate;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -28,6 +29,8 @@ public class AdminLoginActivity extends AppCompatActivity {
         setContentView(R.layout.admin_login_layout);
         btn_login = (Button) findViewById(R.id.btn_login);
         btn_NewUser = (Button) findViewById(R.id.btn_NewUser);
+        AppCompatDelegate.setCompatVectorFromResourcesEnabled(true);
+
 
         inputUser_Name = (EditText) findViewById(R.id.input_userName);
         inputPassword = (EditText) findViewById(R.id.input_password);
@@ -37,8 +40,7 @@ public class AdminLoginActivity extends AppCompatActivity {
             public void onClick(View view) {
                 String user_name = inputUser_Name.getText().toString().trim();
                 String password = inputPassword.getText().toString().trim();
-
-                startActivity(new Intent(AdminLoginActivity.this, MainActivity.class));
+               // startActivity(new Intent(AdminLoginActivity.this, MainActivity.class));
 
                 // Check for empty data in the form
                 if (!user_name.isEmpty() && !password.isEmpty()) {

@@ -3,6 +3,7 @@ package com.netizen.netizenittest.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.app.AppCompatDelegate;
 import android.view.Window;
 import android.view.WindowManager;
 import android.view.animation.Animation;
@@ -30,6 +31,8 @@ public class SplashScreenActivity extends AppCompatActivity {
         ImageView imageView = findViewById(R.id.imageView);
         Animation animation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.fade);
         imageView.startAnimation(animation);
+        AppCompatDelegate.setCompatVectorFromResourcesEnabled(true);
+
     }
 
     private void splashThread() {

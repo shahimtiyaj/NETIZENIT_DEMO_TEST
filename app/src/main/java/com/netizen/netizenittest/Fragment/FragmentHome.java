@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.support.v7.app.AppCompatDelegate;
 import android.support.v7.widget.CardView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -36,6 +37,8 @@ public class FragmentHome extends Fragment {
         view = inflater.inflate(R.layout.fragment_home, container, false);
         collCard = (CardView) view.findViewById(R.id.collcardId);
         reportCard = (CardView) view.findViewById(R.id.repoCardId);
+        AppCompatDelegate.setCompatVectorFromResourcesEnabled(true);
+
         OnclickView();
         return view;
     }

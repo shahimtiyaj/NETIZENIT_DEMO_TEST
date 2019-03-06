@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.app.AppCompatDelegate;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
@@ -68,6 +69,8 @@ public class AllStudentInfoActivity extends AppCompatActivity {
         // Lookup the toolbar in activity layout
         setSupportActionBar(toolbar);
         //Default home button enable false
+        AppCompatDelegate.setCompatVectorFromResourcesEnabled(true);
+
         getSupportActionBar().setHomeButtonEnabled(true);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);

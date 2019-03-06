@@ -14,6 +14,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.support.design.widget.TextInputLayout;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.app.AppCompatDelegate;
 import android.support.v7.widget.Toolbar;
 import android.text.Editable;
 import android.text.InputType;
@@ -117,6 +118,8 @@ public class StudentRegActivity extends AppCompatActivity implements AdapterView
         toolbarTitle = (TextView) toolbar.findViewById(R.id.toolbar_title);
         // Lookup the toolbar in activity layout
         setSupportActionBar(toolbar);
+        AppCompatDelegate.setCompatVectorFromResourcesEnabled(true);
+
         //Default home button enable false
         getSupportActionBar().setHomeButtonEnabled(true);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
@@ -366,11 +369,17 @@ public class StudentRegActivity extends AppCompatActivity implements AdapterView
         ok.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                db.addContacts(new StudentInfo(name, selectSession, selectClass, email, dateOfBirth, blood,
-                        selectContact, area, phone, city, pincode, gender, check, photo));
-                sucessFullToast();
-                Intent intent = new Intent(StudentRegActivity.this, AdminLoginActivity.class);
-                startActivity(intent);
+                try {
+
+                    db.addContacts(new StudentInfo(name, selectSession, selectClass, email, dateOfBirth, blood,
+                            selectContact, area, phone, city, pincode, gender, check, photo));
+                    sucessFullToast();
+                    Intent intent = new Intent(StudentRegActivity.this, AdminLoginActivity.class);
+                    startActivity(intent);
+                    finish();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
             }
         });
 
