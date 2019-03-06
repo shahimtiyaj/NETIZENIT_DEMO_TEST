@@ -11,6 +11,9 @@ Student Admission form
 
 ![4](https://user-images.githubusercontent.com/8472582/53867387-ef07b600-401d-11e9-9f9e-39e54682f4e0.png)
 
+Select Birth Date 
+-----------------
+
 ![4](https://user-images.githubusercontent.com/8472582/53866369-a3eca380-401b-11e9-9962-04c266774c96.png)
 
 Upload Image From Gallery
