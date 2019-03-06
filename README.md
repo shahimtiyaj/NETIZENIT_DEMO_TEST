@@ -13,24 +13,27 @@ Student Admission form
 
 ![4](https://user-images.githubusercontent.com/8472582/53866369-a3eca380-401b-11e9-9962-04c266774c96.png)
 
-![4](https://user-images.githubusercontent.com/8472582/53866371-a3eca380-401b-11e9-9cd8-e2202c80e057.png)
-
 Upload Image From Gallery
 -------------------------
 
-![4](https://user-images.githubusercontent.com/8472582/53866373-a4853a00-401b-11e9-94f6-89186aed85de.png)
+![4](https://user-images.githubusercontent.com/8472582/53866371-a3eca380-401b-11e9-9cd8-e2202c80e057.png)
 
 Admission Form Submission Alert
+------------------------------
+
+![4](https://user-images.githubusercontent.com/8472582/53866373-a4853a00-401b-11e9-94f6-89186aed85de.png)
+
+Admisn Dashboard
 -------------------------------
 
 ![4](https://user-images.githubusercontent.com/8472582/53866375-a4853a00-401b-11e9-8ef6-e9fcadaee35b.png)
 
-Admisn Dashboard
-----------------
+All Student Form List
+--------------------
 
 ![4](https://user-images.githubusercontent.com/8472582/53866377-a4853a00-401b-11e9-9a01-7a35c28613de.png)
 
-All Student Form List
+Delete Student Record
 ---------------------
 
 ![4](https://user-images.githubusercontent.com/8472582/53866380-a51dd080-401b-11e9-8975-b32a2a82f73d.png)
