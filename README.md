@@ -26,7 +26,7 @@ Admission Form Submission Alert
 
 ![4](https://user-images.githubusercontent.com/8472582/53866373-a4853a00-401b-11e9-94f6-89186aed85de.png)
 
-Admisn Dashboard
+Admin Dashboard
 -------------------------------
 
 ![4](https://user-images.githubusercontent.com/8472582/53866375-a4853a00-401b-11e9-8ef6-e9fcadaee35b.png)
