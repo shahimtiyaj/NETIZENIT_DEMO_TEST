@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#017BBF</color>
+    <color name="colorPrimaryDark">#0662AB</color>
+    <color name="colorAccent">#078448</color>
+    <color name="white">#ffffff</color>
+
+    <color name="genre">#FFFFFF</color>
+    <color name="year">#FFFFFF</color>
+    <color name="list_divider">#604343</color>
+    <color name="list_row_start_color">#5c2f2f</color>
+    <color name="list_row_end_color">#683333</color>
+    <color name="list_row_hover_start_color">#562c2c</color>
+    <color name="list_row_hover_end_color">#604343</color>
+
+    <color name="base2_background">#7043d8</color>
+    <color name="shape_backgroup">#4B0082</color>
+
+
+    <color name="backgroundcolor">#fcfcfc</color>
+    <color name="lightgray">#ededed</color>
+    <color name="deeppurple">#7c4dff</color>
+    <color name="yello">#ffb300</color>
+    <color name="green">#00bfa5</color>
+    <color name="darkblue">#23283a</color>
+    <color name="testcolorblue">#152b38</color>
+
+    <color name="red">#F01C0C</color>
+    <color name="shadow">#66000000</color>
+
+
+</resources>

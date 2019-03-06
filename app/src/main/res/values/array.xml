@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="option">
+        <item>Select Blood</item>
+        <item>O+</item>
+        <item>B+</item>
+        <item>O-</item>
+        <item>A+</item>
+        <item>AB+</item>
+    </string-array>
+
+    <string-array name="contact">
+        <item>Select Contact Person</item>
+        <item>Father</item>
+        <item>Mother</item>
+        <item>Sister</item>
+        <item>Brother</item>
+    </string-array>
+
+    <string-array name="session">
+        <item>Session</item>
+        <item>2019/2020</item>
+        <item>2010/2021</item>
+        <item>2011/2022</item>
+    </string-array>
+    <string-array name="spinner_class">
+        <item>Class</item>
+        <item>Class One</item>
+        <item>Class Two</item>
+        <item>Class Three</item>
+    </string-array>
+</resources>
